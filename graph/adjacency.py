@@ -1,3 +1,27 @@
+"""
+Vertex - node
+payload - additional information on node
+edge - connects two node.
+directed graph or digraph - edges are one directional
+weight - edge are weighted (cost)
+graph G = (V,E)
+V - set of vertices and E - set of edges
+subgraph s
+Cycle n directed graph -> path starts and end in same node
+directed graph with no cycle is called acyclic graph (DAG)
+
+Adjacency Matrix:
+easiest way to implement graph using 2d array
+row and column represent vertex and cell represent edge (weight)
+Requires more space
+
+Adjacency list:
+id = v0
+adj = { v5:2, v1:3 } vector followed by weight - space efficient
+
+"""
+
+
 class Vertex:
     """ Vertex class
     """
@@ -56,6 +80,34 @@ class Graph:
 
         self.getVertex(s).addNeighbor(t, w)
 
+
+
+def buildGraph():
+    d = {}
+    g = Graph()
+
+    with open('/Users/suriya0404/data/word.txt', 'r') as f1:
+        for word in f1:
+            for i in range(len(word)):
+                bucket = word[:i] + '_' + word[i+1:]
+
+                if bucket not in d:
+                    d[bucket] = [word]
+                else:
+                    d[bucket].append('word')
+
+    for buc in bucket:
+        for word1 in d[bucket]:
+            for word2 in d[bucket]:
+                if word1 != word2:
+                    g.addEdge(word1, word2)
+
+    return g
+
+
+
+
+
 if __name__ == '__main__':
     g = Graph()
 
@@ -75,9 +127,9 @@ if __name__ == '__main__':
         print(v.getConnections())
         print('\n')
 
+    buildGraph()
 
-
-
+    g.print()
 
 
 
