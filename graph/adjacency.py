@@ -127,9 +127,14 @@ if __name__ == '__main__':
         print(v.getConnections())
         print('\n')
 
-    buildGraph()
+    g = buildGraph()
 
-    g.print()
+    for v in g:
+        print(v)
+        print(v.getConnections())
+        print('\n')
+
+    # print(g.getConnections())
 
 
 
