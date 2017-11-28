@@ -86,7 +86,7 @@ def buildGraph():
     d = {}
     g = Graph()
 
-    with open('/Users/suriya0404/data/word.txt', 'r') as f1:
+    with open('data/word.txt', 'r') as f1:
         for word in f1:
             for i in range(len(word)):
                 bucket = word[:i] + '_' + word[i+1:]
@@ -103,9 +103,6 @@ def buildGraph():
                     g.addEdge(word1, word2)
 
     return g
-
-
-
 
 
 if __name__ == '__main__':
