@@ -11,8 +11,24 @@ class Employee:
 
         Employee.num_of_emp += 1
 
+    @property
+    def email_address(self):
+        return '{}.{}@email.com'.format(self.first, self.last)
+
+    @property
     def full_name(self):
         return '{},{}'.format(self.last, self.first)
+
+    @full_name.setter
+    def full_name(self, name):
+        first, last = name.split(' ')
+        self.first = first
+        self.last = last
+
+    @full_name.deleter
+    def full_name(self):
+        self.first = None
+        self.last = None
 
     @classmethod
     def raise_bonus(cls, bonus):
