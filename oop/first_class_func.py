@@ -57,15 +57,34 @@ def subtract(a, b):
 ### Decorators #####
 
 def decorator_func(original_func):
-    def wrapper_func():
+    def wrapper_func(*args, **kwargs):
         print('This is wrapper function for the function {}'.format(original_func.__name__))
-        original_func()
+        original_func(*args, **kwargs)
 
     return wrapper_func
 
 @decorator_func
 def print_message():
     print('Hello from original function')
+
+@decorator_func
+def print_name(first, last):
+    print('Hello message from {}, {}'.format(last, first))
+
+
+class decorator_class(object):
+
+    def __init__(self, original_method):
+        self.original_method = original_method
+
+    def __call__(self, *args, **kwargs):
+        print('This message from call method for the function {}'.format(self.original_method.__name__))
+        return self.original_method(*args, **kwargs)
+
+@decorator_class
+def print_name_class(first, last):
+    print('Hello message from {},{}'.format(last, first))
+
 
 
 if __name__ == '__main__':
@@ -98,3 +117,50 @@ if __name__ == '__main__':
         # Without @ keyword  we can also assign decorator as
         # print_message = decorator_func(print_message)
         print_message()
+
+        print_name('john', 'smith')
+
+        print_name_class('suriya', 'mohan')
+
+        #Dcuk Typing:
+        person = {'name': 'Suriya', 'age': 30, 'salary': 40000}
+
+        try:
+            print('The person {name} the age of {age} has salary of {salary}'.format(**person))
+        except KeyError as e:
+            print('Missing {}'.format(e))
+
+        number = [1,2,3,4]
+
+        # not check length - Ask forgiveness than permission.
+        try:
+            print(number[5])
+        except IndexError as e:
+            print(e)
+
+        # Another example - File opem
+        import os
+
+        try:
+            f = open('log.txt')
+            if f.name == 'log1.txt':
+                raise Exception
+        except IOError as e:
+            print('The file cannot be accessed')
+        except Exception as e:
+            print('Error - {}'.format(e))
+        else:
+            with f:
+                print(f.read())
+        finally:
+
+            print('Finally block is getting executed ...')
+
+
+        # import os
+        # mkdir(), getcwd(), listdir(), mkdirs(), rmdir, removedirs()
+
+
+
+
+
