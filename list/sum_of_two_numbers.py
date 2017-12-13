@@ -34,7 +34,22 @@ def sentence_reversal(sent):
     rev_words = words[::-1]
     return ' '.join(map(str, rev_words))
 
+def compression(string1):
+    d1 = {}
+
+    for chr in string1:
+        if chr in d1:
+            d1[chr] += 1
+        else:
+            d1[chr] = 1
+
+    return ''.join(map(str, [i+str(j) for i, j in d1.items()]))
+
+
+
 if __name__ == '__main__':
     num_list = [[1, 2, 3, 4, 5, 1, 2, 3], 4]
     sum_of_two_number(num_list)
     print(sentence_reversal('This is suriya'))
+
+    print(compression('AAAABCCCCDD'))
