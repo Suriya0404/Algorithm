@@ -1,0 +1,17 @@
+service: data_science_api
+
+provider:
+  name: aws
+  runtime: python3.5
+  region: us-west
+
+  deploymentBucket:
+    name: data_science
+
+functions:
+  categorize_lambda:
+    name: categorize-lambda
+    description: Rest API prediction
+    handler: ml_rest_api.lambda_handler
+    events:
+      http: POST/spamorham

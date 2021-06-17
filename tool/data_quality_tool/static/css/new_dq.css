@@ -1,0 +1,44 @@
+body {
+  background-image: url('/static/img/blue_sky.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.spanWidth {
+  width: 250px;
+}
+
+span {
+  display: inline-block;
+}
+
+.tableauPlaceholder{
+    width: 1000px;
+    height: 827px;
+}
+
+.tableauViz {
+    display:none;
+}
+
+textarea {
+ width: 300px;
+ height: 100px;
+ font-size: 1em;
+ font-weight: bold;
+ font-family: Monaco, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.text-input {
+    width: 300px;
+    height: 100px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Monaco, Verdana, Arial, Helvetica, sans-serif;
+}

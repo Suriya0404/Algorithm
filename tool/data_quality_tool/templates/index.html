@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Data Quality Tool</title>
+        <!-- Bootstrap core CSS -->
+        <link href="/static/vendor/bootstrap/css/bootstrap.min.css"
+              rel="stylesheet"
+              nonce={{ PP_NONCE }}>
+        <link rel="shortcut icon" href="/static/img/favicon-dbx.ico">
+
+        <!-- Custom fonts for this template -->
+        <link href="/static/vendor/fontawesome-free/css/all.min.css"
+              rel="stylesheet"
+              nonce={{ PP_NONCE }}>
+
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round"
+              rel="stylesheet"
+              integrity="sha384-JvWmNTDGqp+7p1qKkiJ2i+ouYGUlnf9fgJyWC2qvO8+ny3mWvgtPchBHbXXPS6gY"
+              crossorigin="anonymous"
+              nonce={{ PP_NONCE }}>
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+              rel="stylesheet"
+              integrity="sha384-lHqhcSMP3oN1FbXUubtt9dp0JLEUDli10NzEn5Mhw1PFSp9DR/Cr67gD25rSXtPh"
+              crossorigin="anonymous"
+              nonce={{ PP_NONCE }}>
+
+        <!-- Custom styles for this template -->
+        <link href="/static/css/grayscale.min.css"
+              rel="stylesheet"
+              nonce={{ PP_NONCE }}>
+    </head>
+
+    <body id="page-top">
+      <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container-fluid">
+              <a class="navbar-brand js-scroll-trigger h1">Data Science and Engineering</a>
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                      data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger h5" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger h5" href="{{url_for('dq_rules')}}">DQ Rules</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger h5" href="{{url_for('dashboard')}}">Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger h5" href="{{url_for('metric_monitoring')}}">Metric Monitoring</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+              <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Data Quality Tool </h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Framework to validate the data loaded in Snowflake tables </h2>
+                <a href="{{url_for('new_dq')}}" class="btn btn-primary js-scroll-trigger">Enter New DQ Rule</a>
+              </div>
+            </div>
+        </header>
+
+      <!-- About Section -->
+      <section id="about" class="about-section text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white mb-4">Snowflake Data Quality Framework</h2>
+              <p class="text-white-50" align="left">
+                  Framework to proactively monitor and validate the data in Snowflake database to deliver high quality
+                  reliable data to the stakeholders. Below objectives are achieved using this framework
+         <br><br><strong> Data reliability  </strong> - Routine checks to verify the scheduled jobs are executed daily
+         <br><br><strong> Data accuracy </strong> - Duplicate key check and other checks to verify the record count matches
+                          between source system and target system are performed to maintain data accuracy.
+         <br><br><strong> Detect anomaly </strong> - Compare the data volume of current load with prior loads to detect
+                          anomalies in data, source data issue and ETL issue.
+         <br><br><strong> Metrics  monitoring </strong> - Identify the trend in metrics by capturing the daily metric values
+                          and comparing it with historical values. Also check variance in metrics are within the threshold
+                          to detect the anomalies. </p>
+
+         <a href="https://paper.dropbox.com/doc/Snowflake-Data-Quality-SDQ-Framework--Aw0V75AukPzPQzCU7nNxVzmdAQ-a5S0yHRs02JCgUJRdshmo"> Additional information </a>
+                <br><br><br><br>
+            </div>
+          </div>
+          <img src="/static/img/bg-masthead.jpg" class="img-fluid" alt="">
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-black small text-center text-white-50">
+        <div class="container">
+          Copyright &copy; Dropbox 2019
+        </div>
+      </footer>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="/static/vendor/jquery/jquery.min.js" nonce={{ PP_NONCE }}></script>
+      <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js" nonce={{ PP_NONCE }}></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="/static/vendor/jquery-easing/jquery.easing.min.js" nonce={{ PP_NONCE }}></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="/static/js/grayscale.min.js" nonce={{ PP_NONCE }}></script>
+
+    </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  background-image: url('/static/img/blue_sky.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+th {
+    background-color: #565b8b;
+    color: white;
+}
+
+.td-limit {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.td-limit2 {
+    max-width: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.table-bordered {
+    border: 3px solid #ddd;
+}
+
+.dataTables_filter {
+   float: left !important;
+}
+
+.dataTables_paginate>span>a {
+    margin-bottom: 0px !important;
+    padding: 1px 5px !important;
+}
+
+.dataTables_paginate>a {
+    text-align: center;
+    margin-bottom: 0px !important;
+    padding: 1px 5px !important;
+}
+
+.expand-maximum-on-hover:hover {
+  max-width : initial;
+}
+
+.field-width{
+    width: 10px;
+}
