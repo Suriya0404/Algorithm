@@ -2,59 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8596608-ea46-47a8-a805-31c93096ef99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/flask_predict_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/flask_predict_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/iris_forest_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/ml_rest_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/model/gradient_boost_regression_model.p.bz2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/serverless.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/BinaryTreeMaximumPathSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/CountCompleteTreeNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/college_project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/college_project2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/max_level_sum_of_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/wordLadder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/average_word_length.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/capture_interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/containerWithMostWater.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/count_friends_in_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/count_letter_in_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/find_palindrome_in_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/find_primes_in_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/flatten_list_iterator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/ipv4_valid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/lengthOfLongestSubstring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/make_same_frequency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/meetingRooms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/move_zero_end_of_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/n_hightest_in_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/remove_common_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/replace_none_with_previous.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/reverse_vowels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/shortest_word_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/valid_parenthesis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/add_two_link_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/cum_sum_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/game_of_life.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/index_two_number_add_target.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/most_common_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/num_of_island.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/partition_labels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/prison_cell.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/product_list_num.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/rectangle_overlap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/shortest_path_grid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/test.pyi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pzl/valid_bst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tweet/twitter_sentiment_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkl/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkl/LinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pzl/vertical_traverse_of_binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/pzl/vertical_traverse_of_binary_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/dq_rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/dq_rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/metric_monitoring.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/metric_monitoring.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/new_dq.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/new_dq.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +47,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -248,57 +204,27 @@
       <workItem from="1611192085363" duration="6817000" />
       <workItem from="1611602058505" duration="23102000" />
       <workItem from="1612204096709" duration="403000" />
+      <workItem from="1623976331574" duration="4145000" />
+      <workItem from="1624148729584" duration="1154000" />
+      <workItem from="1624221551572" duration="2550000" />
+      <workItem from="1624649223087" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="488" y="238" width="1071" height="787" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611702664397">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="488" y="238" width="1071" height="787" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1611702664397" />
-    <state width="1992" height="274" key="GridCell.Tab.0.bottom" timestamp="1611793064064">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="274" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1611793064064" />
-    <state width="1992" height="274" key="GridCell.Tab.0.center" timestamp="1611793064062">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="274" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1611793064062" />
-    <state width="1992" height="274" key="GridCell.Tab.0.left" timestamp="1611793064061">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="274" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1611793064061" />
-    <state width="1992" height="274" key="GridCell.Tab.0.right" timestamp="1611793064064">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="274" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1611793064064" />
-    <state width="1992" height="300" key="GridCell.Tab.1.bottom" timestamp="1611793063617">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="300" key="GridCell.Tab.1.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1611793063617" />
-    <state width="1992" height="300" key="GridCell.Tab.1.center" timestamp="1611793063611">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="300" key="GridCell.Tab.1.center/0.0.2048.1152@0.0.2048.1152" timestamp="1611793063611" />
-    <state width="1992" height="300" key="GridCell.Tab.1.left" timestamp="1611793063606">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="300" key="GridCell.Tab.1.left/0.0.2048.1152@0.0.2048.1152" timestamp="1611793063606" />
-    <state width="1992" height="300" key="GridCell.Tab.1.right" timestamp="1611793063616">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1992" height="300" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1611793063616" />
-    <state x="453" y="127" key="SettingsEditor" timestamp="1611625247454">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="453" y="127" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1611625247454" />
-    <state x="605" y="120" width="838" height="1032" key="search.everywhere.popup" timestamp="1611708668094">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="605" y="120" width="838" height="1032" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1611708668094" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
