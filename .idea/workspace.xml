@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8596608-ea46-47a8-a805-31c93096ef99" name="Default Changelist" comment="">
+    <list default="true" id="d8596608-ea46-47a8-a805-31c93096ef99" name="Default Changelist" comment="Update the templates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/dq_rules.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/dq_rules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/metric_monitoring.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/metric_monitoring.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/data_quality_tool/templates/new_dq.html" beforeDir="false" afterPath="$PROJECT_DIR$/tool/data_quality_tool/templates/new_dq.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,8 +202,16 @@
       <workItem from="1623976331574" duration="4145000" />
       <workItem from="1624148729584" duration="1154000" />
       <workItem from="1624221551572" duration="2550000" />
-      <workItem from="1624649223087" duration="1981000" />
+      <workItem from="1624649223087" duration="3622000" />
     </task>
+    <task id="LOCAL-00001" summary="Update the templates">
+      <created>1624659218775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624659218776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +228,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update the templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the templates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
